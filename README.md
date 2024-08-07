@@ -30,7 +30,7 @@ This repository contains a simple command-line tool written in Rust for scanning
    
 3. **Run the binary**:
    ```bash
-   ./target/release/port-sniffer --help
+   ./target/release/black-sniffer --help
    ```
    
 ## Usage
@@ -38,7 +38,7 @@ This repository contains a simple command-line tool written in Rust for scanning
    To run the port sniffer, use the following command:
 
    ```bash
-   ./port-sniffer [OPTIONS]
+   ./black-sniffer [OPTIONS]
    ```
 ### Options
 
@@ -57,3 +57,11 @@ This repository contains a simple command-line tool written in Rust for scanning
 - `-t, --timeout <TIMEOUT>`  
   Set the timeout duration in seconds for each connection attempt.  
   **Default**: `1` second
+
+### Example
+
+To scan ports 20 to 1024 on the local machine with a timeout of 2 seconds:
+
+```bash
+./black-sniffer --target 127.0.0.1 --start-port 20 --end-port 1024 --timeout 2
+
