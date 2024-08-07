@@ -19,8 +19,8 @@ This repository contains a simple command-line tool written in Rust for scanning
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/port-sniffer.git
-   cd port-sniffer
+   git clone https://github.com/yourusername/black-sniffer.git
+   cd black-sniffer
    ```
    
 2. **Build the project**:
@@ -35,7 +35,7 @@ This repository contains a simple command-line tool written in Rust for scanning
    
 ## Usage
 
-   To run the port sniffer, use the following command:
+   To run the black sniffer, use the following command:
 
    ```bash
    ./black-sniffer [OPTIONS]
@@ -80,9 +80,7 @@ Port 443 is open
 - If the starting port number is greater than the ending port number, the program will exit with an error message.
 - Invalid IP addresses or port numbers will result in appropriate error messages.
 
-### License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 
 
