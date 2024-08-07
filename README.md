@@ -65,3 +65,11 @@ To scan ports 20 to 1024 on the local machine with a timeout of 2 seconds:
 ```bash
 ./black-sniffer --target 127.0.0.1 --start-port 20 --end-port 1024 --timeout 2
 
+```
+### Output
+
+The program will output the open ports found within the specified range. Example output:
+```
+Port 22 is open
+Port 80 is open
+Port 443 is open
