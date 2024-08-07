@@ -21,15 +21,18 @@ This repository contains a simple command-line tool written in Rust for scanning
    ```bash
    git clone https://github.com/yourusername/port-sniffer.git
    cd port-sniffer
-bash```
+   ```
+   
 2. **Build the project**:
    ```bash
    cargo build --release
    ```
+   
 3. **Run the binary**:
    ```bash
    ./target/release/port-sniffer --help
-bash```
+   ```
+   
 ## Usage
 
 To run the port sniffer, use the following command:
