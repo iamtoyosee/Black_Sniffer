@@ -73,3 +73,20 @@ The program will output the open ports found within the specified range. Example
 Port 22 is open
 Port 80 is open
 Port 443 is open
+```
+
+### Error Handling
+
+- If the starting port number is greater than the ending port number, the program will exit with an error message.
+- Invalid IP addresses or port numbers will result in appropriate error messages.
+
+### License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+
+
+
+
+
+
