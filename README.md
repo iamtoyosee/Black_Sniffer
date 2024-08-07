@@ -35,7 +35,25 @@ This repository contains a simple command-line tool written in Rust for scanning
    
 ## Usage
 
-To run the port sniffer, use the following command:
+   To run the port sniffer, use the following command:
 
-```bash
-./port-sniffer [OPTIONS]
+   ```bash
+   ./port-sniffer [OPTIONS]
+   ```
+### Options
+
+- `-T, --target <TARGET>`  
+  Specify the target IP address.  
+  **Default**: `127.0.0.1`
+
+- `-s, --start-port <START_PORT>`  
+  Specify the starting port number.  
+  **Default**: `1`
+
+- `-e, --end-port <END_PORT>`  
+  Specify the ending port number.  
+  **Default**: `65535`
+
+- `-t, --timeout <TIMEOUT>`  
+  Set the timeout duration in seconds for each connection attempt.  
+  **Default**: `1` second
