@@ -1,6 +1,6 @@
 # Black_Sniffer
 
-This repository contains a simple command-line tool written in Rust for scanning open ports on a specified target IP address. The tool leverages asynchronous programming using `tokio` and the `clap` library for command-line argument parsing.
+This is a repository that contains a simple command-line tool written in Rust for scanning open ports on a specified target IP address. The tool leverages asynchronous programming using `tokio` and the `clap` library for command-line argument parsing.
 
 ## Features
 
